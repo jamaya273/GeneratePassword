@@ -14,10 +14,6 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-/* function generatePassword(){
-  return ("abc");
-} */
-
 
 function generatePassword() {
   //initialize arrays with possible characters from Unicode tables
@@ -56,6 +52,7 @@ function generatePassword() {
     j++;
     specialchars[j] = String.fromCharCode(i);
   };
+
 
 
   // prompt password length
